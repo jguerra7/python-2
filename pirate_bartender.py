@@ -1,3 +1,5 @@
+import random
+
 #pirate bartender
 questions = {
     "strong": "Do ye like yer drinks strong? ",
@@ -34,10 +36,16 @@ def which_drink(flavors):
 
 
 def make_drink(flavors):
-    drink = []
-    for i in flavors:
-        if flavors[i] is True:
-            drink.extend(ingredients[i])
+    drink = ""
+    for i, k in enumerate(flavors):
+        if flavors[k] is True:
+            drink += random.choice(ingredients[k]) + ", "
+
+    drink = drink[:-2]  #remove trailing comma
+
     return drink
 
-print(make_drink(which_drink(questions)))
+while True:
+    print(make_drink(which_drink(questions)))
+    if str(input("Another? (yar or nay): ")) != 'yar':
+        break
