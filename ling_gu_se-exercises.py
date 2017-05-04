@@ -1,4 +1,4 @@
-import string
+import re
 
 vowels = ['a', 'e', 'i', 'o', 'u']
 consonants = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z']
@@ -7,6 +7,14 @@ my_nums = [1, 2, 3, 4]
 my_negative_nums = [-1, -2, -3, -4]
 word_list = ["this", "is", "a", "smallish", "sentence"]
 a_pangram = "The quick brown fox jumps over the lazy dog."
+christmas_words = {"merry": "god", "christmas": "jul", "and": "och", "happy": "gott", "new": "nytt", "year": "år"}
+rot13key = {'a': 'n', 'b': 'o', 'c': 'p', 'd': 'q', 'e': 'r', 'f': 's', 'g': 't', 'h': 'u',
+            'i': 'v', 'j': 'w', 'k': 'x', 'l': 'y', 'm': 'z', 'n': 'a', 'o': 'b', 'p': 'c',
+            'q': 'd', 'r': 'e', 's': 'f', 't': 'g', 'u': 'h', 'v': 'i', 'w': 'j', 'x': 'k',
+            'y': 'l', 'z': 'm', 'A': 'N', 'B': 'O', 'C': 'P', 'D': 'Q', 'E': 'R', 'F': 'S',
+            'G': 'T', 'H': 'U', 'I': 'V', 'J': 'W', 'K': 'X', 'L': 'Y', 'M': 'Z', 'N': 'A',
+            'O': 'B', 'P': 'C', 'Q': 'D', 'R': 'E', 'S': 'F', 'T': 'G', 'U': 'H', 'V': 'I',
+            'W': 'J', 'X': 'K', 'Y': 'L', 'Z': 'M'}
 
 
 def max_func(int1, int2):
@@ -17,7 +25,7 @@ def max_func(int1, int2):
     else:
         return 0
 
-print(max(1, 2))  #expected: 2
+print(max(1, 2))  # expected: 2
 
 
 def max_of_three(int1, int2, int3):
@@ -28,7 +36,7 @@ def max_of_three(int1, int2, int3):
     else:
         return int2
 
-print(max_of_three(1, 2, 3))  #expected: 3
+print(max_of_three(1, 2, 3))  # expected: 3
 
 
 def str_len(my_str):
@@ -38,7 +46,7 @@ def str_len(my_str):
 
     return count
 
-print(str_len("My String"))  #expected: 9
+print(str_len("My String"))  # expected: 9
 
 
 def is_vowel(char):
@@ -47,8 +55,8 @@ def is_vowel(char):
     else:
         return False
 
-print(is_vowel("A"))  #expected: True
-print(is_vowel("R"))  #expected: False
+print(is_vowel("A"))  # expected: True
+print(is_vowel("R"))  # expected: False
 
 
 def translate(my_str):
@@ -219,3 +227,50 @@ def bottles_of_beer(bottles):
 #bottles_of_beer(99)
 
 
+def translate_to_swedish(sentence):
+    translation = []
+
+    for word in sentence.split():
+        translation.append(christmas_words[word.lower()])
+
+    return translation
+
+print(translate_to_swedish("Merry Christmas"))
+
+
+def char_freq(my_str):
+    freq = {}
+
+    for char in my_str:
+        if char in freq:
+            freq[char] += 1
+        else:
+            freq[char] = 1
+
+    return freq
+
+print(char_freq("abbabcbdbabdbdbabababcbcbab"))  # 7a, 14b, 3c, 3d
+
+
+def caesar_cypher(my_str):
+    new_str = ""
+
+    for char in my_str:
+        if char in rot13key:
+            new_str += rot13key[char]
+        else:
+            new_str += char
+
+    return new_str
+
+print(caesar_cypher("Pnrfne pvcure? V zhpu cersre Pnrfne fnynq!"))
+print(caesar_cypher("Rotate this string."))
+
+
+def correct(sentence):
+    new_sentence = ""
+    
+
+    return new_sentence
+
+correct("This   is  very funny  and    cool.Indeed!")

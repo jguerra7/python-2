@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="633fd3b1-b7bd-4440-87d1-158585058448" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ling_gu_se-exercises.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/DOTlaptop.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/DOTlaptop.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bicycle_shop.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ling_gu_se-exercises.py" afterPath="$PROJECT_DIR$/ling_gu_se-exercises.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,41 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="looping.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/looping.py">
+      <file leaf-file-name="bicycle_shop.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bicycle_shop.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="920">
-              <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="files.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/files.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="project1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ling_gu_se-exercises.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ling_gu_se-exercises.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="973">
-              <caret line="221" column="0" lean-forward="true" selection-start-line="221" selection-start-column="0" selection-end-line="221" selection-end-column="0" />
+            <state relative-caret-position="773">
+              <caret line="46" column="29" lean-forward="true" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -86,6 +55,7 @@
         <option value="$PROJECT_DIR$/files.py" />
         <option value="$PROJECT_DIR$/rot13.py" />
         <option value="$PROJECT_DIR$/ling_gu_se-exercises.py" />
+        <option value="$PROJECT_DIR$/bicycle_shop.py" />
       </list>
     </option>
   </component>
@@ -153,25 +123,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ling_gu_se-exercises">
-    <configuration default="false" name="dictionary_duplication" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="iqt" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dictionary_duplication.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.bicycle_shop">
     <configuration default="false" name="dictionary_cartesian_join" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -244,6 +196,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
+    <configuration default="false" name="bicycle_shop" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="iqt" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bicycle_shop.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -309,19 +279,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.dictionary_duplication" />
-      <item index="1" class="java.lang.String" itemvalue="Python.dictionary_cartesian_join" />
-      <item index="2" class="java.lang.String" itemvalue="Python.looping" />
-      <item index="3" class="java.lang.String" itemvalue="Python.files" />
-      <item index="4" class="java.lang.String" itemvalue="Python.ling_gu_se-exercises" />
+      <item index="0" class="java.lang.String" itemvalue="Python.dictionary_cartesian_join" />
+      <item index="1" class="java.lang.String" itemvalue="Python.looping" />
+      <item index="2" class="java.lang.String" itemvalue="Python.files" />
+      <item index="3" class="java.lang.String" itemvalue="Python.ling_gu_se-exercises" />
+      <item index="4" class="java.lang.String" itemvalue="Python.bicycle_shop" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.ling_gu_se-exercises" />
-        <item index="1" class="java.lang.String" itemvalue="Python.files" />
-        <item index="2" class="java.lang.String" itemvalue="Python.looping" />
-        <item index="3" class="java.lang.String" itemvalue="Python.dictionary_cartesian_join" />
-        <item index="4" class="java.lang.String" itemvalue="Python.dictionary_duplication" />
+        <item index="0" class="java.lang.String" itemvalue="Python.bicycle_shop" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ling_gu_se-exercises" />
+        <item index="2" class="java.lang.String" itemvalue="Python.files" />
+        <item index="3" class="java.lang.String" itemvalue="Python.looping" />
+        <item index="4" class="java.lang.String" itemvalue="Python.dictionary_cartesian_join" />
       </list>
     </recent_temporary>
   </component>
@@ -385,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1493815257031</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="more looping">
+      <created>1493841985240</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1493841985240</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -432,7 +409,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="more looping" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -494,18 +479,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/looping.py">
+    <entry file="file://$PROJECT_DIR$/ling_gu_se-exercises.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/files.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="893">
+          <caret line="276" column="0" lean-forward="true" selection-start-line="276" selection-start-column="0" selection-end-line="276" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -518,10 +495,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ling_gu_se-exercises.py">
+    <entry file="file://$PROJECT_DIR$/files.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="973">
-          <caret line="221" column="0" lean-forward="true" selection-start-line="221" selection-start-column="0" selection-end-line="221" selection-end-column="0" />
+        <state relative-caret-position="760">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/looping.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bicycle_shop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="773">
+          <caret line="46" column="29" lean-forward="true" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
           <folding />
         </state>
       </provider>
