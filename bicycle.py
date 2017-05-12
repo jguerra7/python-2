@@ -83,18 +83,26 @@ class BikeShop:
         print("Current profits: $" + str(self.profits) + "\n")
 
 
-if __name__ == '__main__':
-    def main():
-        customer1 = Customer("Joel", 1000)
-        customer2 = Customer("Leslie", 500)
-        customer3 = Customer("David", 200)
+customer1 = Customer("Joel", 1000)
+customer2 = Customer("Leslie", 500)
+customer3 = Customer("David", 200)
 
-        bike_shop = BikeShop("Bikes-R-Us")
+bike_shop = BikeShop("Bikes-R-Us")
 
-        bike_shop.add_bike("Diamondback", 35, 250)
-        bike_shop.add_bike("Huffy", 30, 125)
-        bike_shop.add_bike("Razor", 5, 75)
-        bike_shop.add_bike("Iverson", 15, 450)
-        bike_shop.add_bike("Murray", 20, 325)
-        bike_shop.add_bike("Roadmaster", 10, 675)
+bike_shop.add_bike("Diamondback", 35, 250)
+bike_shop.add_bike("Huffy", 30, 125)
+bike_shop.add_bike("Razor", 5, 75)
+bike_shop.add_bike("Iverson", 15, 450)
+bike_shop.add_bike("Murray", 20, 325)
+bike_shop.add_bike("Roadmaster", 10, 675)
 
+
+bike_shop.print_inventory()
+
+bike_shop.sell_bike(2, customer1)
+
+bike_shop.print_inventory()
+bike_shop.show_profits()
+
+customer1.print_inventory()
+customer1.print_budget()
